@@ -83,7 +83,8 @@ export const HomePage = ({ navigation }) => {
 
   return (
     <View>
-      <FlatList data={posts} renderItem={Item} extraData={navigation} />
+      <FlatList data={posts} renderItem={Item} extraData={navigation} keyExtractor={(item) => item.id}
+/>
     </View>
   )
 }
