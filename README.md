@@ -6,5 +6,4 @@ Technolog
 
 *Firebase & firestore
 
-*Styled Component# blog-site-ract-native
-# blog-site-ract-native
+*Styled Component
